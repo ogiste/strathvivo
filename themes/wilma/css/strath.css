@@ -1,0 +1,141 @@
+
+body {
+   background: #595b5b url(../images/header-background-strath.png) center 0 no-repeat; 
+}
+@font-face {
+    font-family: ArvoRegular;
+    src: url(../fonts/Arvo/Arvo-Regular.ttf);
+}
+html, body {
+    font-family:ArvoRegular, "Lucida Sans Unicode","Lucida Grande", Geneva, helvetica, sans-serif;
+    height: 100%;
+    width:100%;
+    
+}
+ul#main-nav {
+    background-color: #3E3F43;
+    border: none;
+
+}
+ul#main-nav {
+    margin-top: 60px;
+}
+
+    
+
+#main-nav li a:hover {
+    color: #706a66;
+    background: #fffe;
+}
+#main-nav li a {
+    color: #ffff;
+}
+
+#main-nav li a.selected {
+    color: #002b44;
+    background: #fffe;
+    margin-left: 18px;
+}
+
+h1.vivo-logo {
+	width: 350px;
+    height: 120px;
+    background: url(../images/strath_logo_bg_blue.png) 0 0 no-repeat;
+    top:0px;
+    
+}
+li.individual>h1{
+    font-size: 14px;
+}
+
+.hero-image {
+  background-image: url(../images/research-at-su.png);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  
+  text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.hero-p{
+    color:black;
+    font-size: 18px;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+#heroimage{
+  width:100%;
+  height:100%;
+  margin-bottom: 30px
+}
+
+#heroimage{   
+  background:url(../images/research-at-su.png) center center;
+  background-size:cover;
+  min-height: 350px;
+}
+
+input.search-homepage {
+    height: 33px;
+}
+
+#home-faculty-mbrs {
+    min-height: 150px;
+    margin-left: 100px;
+}
+#home-research{
+    min-height: 150px;
+}
+
+#home-academic-depts {
+    width: 297px;
+    margin-left: 0px;
+    float: left;
+}
+
+#stats li:first-child {
+    margin-left: 10px;
+}
+
+.strath-depts-header{
+    margin-left: 20px !important;
+}
+.strath-row{
+    margin-bottom: 25px
+}
+
+#login{
+    background-color: ;
+}
+
+#login h2 {
+    padding-left: 35px;
+}
+
+.row, .rowvert {
+    background-color: #ffffff;
+}
