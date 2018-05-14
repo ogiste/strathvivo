@@ -7,9 +7,9 @@
         <#if copyright??>
             <small>&copy;${copyright.year?c}
             <#if copyright.url??>
-                <a href="${copyright.url}" title="${i18n().menu_copyright}">Strathmore VIVO</a>
+                <a href="${copyright.url}" title="${i18n().menu_copyright}">${copyright.text}</a>
             <#else>
-                Strathmore VIVO
+                ${copyright.text}
             </#if>
              | <a class="terms" href="${urls.termsOfUse}" title="${i18n().menu_termuse}">${i18n().menu_termuse}</a></small> | 
         </#if>
