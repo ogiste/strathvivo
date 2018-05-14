@@ -27,6 +27,7 @@
     <body class="${bodyClasses!}" onload="${bodyOnload!}">
     <#-- supplies the faculty count to the js function that generates a random row number for the search query -->
         <@lh.facultyMemberCount  vClassGroups! />
+        
         <#include "identity.ftl">
 
         <#include "menu.ftl">
@@ -69,7 +70,7 @@
           <div class="col-md-8">
             <section id="intro" role="region">
               <div class="row strath-row">
-                <div class="col-md-3">
+                <div class="col-md-3 home-sec-research">
                 <!-- List of research classes: e.g., articles, books, collections, conference papers -->
                 <@lh.researchClasses />
                 </div>
@@ -82,7 +83,7 @@
               <div class="row strath-row">
                 <div class="col-md-8">
                 <!-- List of randomly selected academic departments -->
-                <@lh.academicDeptsHtml />
+                
                 </div>
               </div>
               <div class="row">
@@ -100,14 +101,22 @@
               </div>
             </section> <!-- #intro -->
           </div>
-          <div class="col-md-4">
-            <@widget name="login" />
-          </div>
+            <#if user.loggedIn>
+                <div class="col-md-4">
+               <@lh.academicDeptsHtml />
+                </div>
+            <#else>
+                <div class="col-md-4">
+                <@widget name="login" />
+                </div>
+            </#if>
+          
         </div>
 
         <#include "footer.ftl">
         <#-- builds a json object that is used by js to render the academic departments section -->
-        <@lh.listAcademicDepartments />
+                <@lh.listAcademicDepartments />
+        
         
     <script>       
         var i18nStrings = {

@@ -3,7 +3,6 @@
 </header>
 
 <#include "developer.ftl">
-
 <nav role="navigation" class="nav--horizontal">
     <ul id="main-nav" role="list">
         <#list menu.items as item>

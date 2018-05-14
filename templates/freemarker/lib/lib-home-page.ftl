@@ -74,7 +74,7 @@
                         <#if !group.uri?contains("equipment") && !group.uri?contains("course") >
                             <li>
                                 <a href="${urls.base}/browse">
-                                    <button class="btn btn-primary" type="button">
+                                    <button class="btn btn-primary" style=';background-color: rgba(0,46,102,.8);color: #FFFFFF; font-weight: bolder;' type="button">
                                         ${group.displayName?capitalize}
                                         <span class="badge">
                                         <#if (group.individualCount > 10000) >
@@ -140,7 +140,7 @@
                         </li>
                     </#if>
                 </#list>
-                <li><a href="${urls.base}/research" alt="${i18n().view_all_research}">${i18n().view_all}</a></li>
+                <li><a href="${urls.base}/research" alt="${i18n().view_all_research}" class='btn btn-default' style=';background-color: rgba(0,46,102,.8);color: #FFFFFF; font-weight: bolder;' >${i18n().view_all}</a></li>
             </#if>
         </#list>
         <#if !foundClassGroup>
