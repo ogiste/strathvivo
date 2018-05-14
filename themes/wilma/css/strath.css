@@ -40,8 +40,8 @@ ul#main-nav {
 h1.vivo-logo {
 	width: 350px;
     height: 120px;
-    background: url(../images/strath_logo_bg_blue.png) 0 0 no-repeat;
-    top:0px;
+    background: url(../images/Strath-logo-white.png) 0 0 no-repeat;
+    
     
 }
 li.individual>h1{
@@ -120,6 +120,9 @@ input.search-homepage {
 #stats li:first-child {
     margin-left: 10px;
 }
+#stats li:last-child {
+    margin-right: 10px;
+}
 
 .strath-depts-header{
     margin-left: 20px !important;
@@ -138,4 +141,27 @@ input.search-homepage {
 
 .row, .rowvert {
     background-color: #ffffff;
+}
+
+ul#header-nav {
+    float: right;
+    list-style: none;
+    height: 30px;
+    padding-top: 10px;
+    margin-right: 13px;
+    margin-top: 50px;
+}
+ul.dropdown li#user-menu {
+    background-position:100% 60%;
+}
+ul.dropdown li#user-menu.hover, ul.dropdown li#user-menu:hover{
+    background-position:100% 60%;
+}
+#stats li {
+    float: left;
+    width: 108px;
+    height: 102px;
+    margin-top: 35px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
