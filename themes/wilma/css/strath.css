@@ -1,6 +1,6 @@
 
 body {
-   background: #595b5b url(../images/header-background-strath.png) center 0 no-repeat; 
+   background: #595b5b url(../images/header-background-strath-114.png) center 0 no-repeat; 
 }
 @font-face {
     font-family: ArvoRegular;
@@ -18,7 +18,7 @@ ul#main-nav {
 
 }
 ul#main-nav {
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 
     
@@ -38,9 +38,10 @@ ul#main-nav {
 }
 
 h1.vivo-logo {
-	width: 350px;
-    height: 120px;
-    background: url(../images/Strath-logo-white.png) 0 0 no-repeat;
+	width: 120px;
+    height: 44px;
+    top:18px;
+    background: url(../images/Strath-logo-white-small.png) 0 0 no-repeat;
     
     
 }
@@ -213,5 +214,11 @@ footer {
 #branding {
     width: 930px;
 }
+div#research-faculty-mbrs ul li.individual:first-child {
+    clear: both;
+    padding-top: 0px;
+}
 
-
+section {
+    border-radius: 3px;
+}
