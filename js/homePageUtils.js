@@ -156,7 +156,7 @@ $(document).ready(function(){
                     + "<li style='font-size:0.9em;text-align:right;padding: 6px 16px 0 0'><a href='" 
                     + urlsBase 
                     + "/organizations#http://vivoweb.org/ontology/core#AcademicDepartment' alt='" 
-                    + i18nStrings.viewAllDepartments + "' class='btn btn-default home-sec-btn'>" 
+                    + i18nStrings.viewAllDepartments + "' class='btn btn-default home-sec-btn view-all-dept'>" 
                     + i18nStrings.viewAllString + "</a></li></ul>";
         }
         $('div#academic-depts').html(html);
