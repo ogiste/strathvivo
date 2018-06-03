@@ -9,7 +9,7 @@
             <#if copyright.url??>
                 <a href="${copyright.url}" title="${i18n().menu_copyright}">Strathmore VIVO</a>
             <#else>
-                Strathmore VIVO
+                <a href="https://www.strathmore.edu" title="copyright">Strathmore University</a>
             </#if>
              | <a class="terms" href="${urls.termsOfUse}" title="${i18n().menu_termuse}">${i18n().menu_termuse}</a></small> | 
         </#if>
