@@ -29,7 +29,7 @@
     </#if>
 
     <section id="login" class="hidden">
-        <h2>${i18n().login_button}</h2>
+        <h4>${i18n().login_button}</h4>
     
         <#if infoMessage??>
             <h3>${infoMessage}</h3>

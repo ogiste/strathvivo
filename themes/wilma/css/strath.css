@@ -151,8 +151,13 @@ input.search-homepage {
     background-color: ;
 }
 
-#login h2 {
-    padding-left: 35px;
+#login h4 {
+    color: #ffffff;
+    padding-left: 0px;
+    border-bottom: none;
+    background-color: #002e66;
+    text-align: center;
+    margin: 0px 0px !important;
 }
 
 .row, .rowvert {
@@ -193,14 +198,14 @@ ul.dropdown li#user-menu.hover, ul.dropdown li#user-menu:hover{
 }
 #login {
     float: right;
-    width: 300px;
+    width: 290px;
     border: none;
     margin-left: 5px;
     margin-right: 0px;
     padding-bottom: 30px;
     margin-bottom: 30px;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .home-sections {
     border-top: 1px dotted #dbe3e3;
